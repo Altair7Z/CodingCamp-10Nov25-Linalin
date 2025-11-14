@@ -1,0 +1,27 @@
+body{
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    background: linear-gradient( cyan, blue, navy );
+}
+
+.form-section{
+    display: flex;
+    gap: 8px;
+}
+
+#main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding: 40px;
+    text-align: left;
+}
+
+#bod{
+    background-color: rgb(2, 154, 255);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
